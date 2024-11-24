@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\utils.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="gpu\gpu_common.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="gpu\nvidia.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="gpu\amd.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="gpu\intel.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="input\input_control.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\renderer.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="stealth\anti_debug.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="stealth\decoy_protection.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="stealth\driver_stealth.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="stealth\memory_protection.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="stealth\polymorphic_engine.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="stealth\stealth_core.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="stealth\threat_detection.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver_codes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="driver_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="gpu\gpu_common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="gpu\nvidia.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="gpu\amd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="gpu\intel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="input\input_control.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\renderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="stealth\anti_debug.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="stealth\decoy_patterns.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="stealth\device_protection.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="stealth\driver_stealth.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="stealth\memory_protection.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="stealth\stealth_core.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="stealth\stealth_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
